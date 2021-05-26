@@ -57,27 +57,34 @@ internal object GeofencingConstants {
     val LANDMARK_DATA = arrayOf(
         LandmarkDataObject(
             "golden_gate_bridge",
-            R.string.golden_gate_bridge_hint,
-            R.string.golden_gate_bridge_location,
-            LatLng(37.819927, -122.478256)),
+            R.string.water_park_tower_hint,
+            R.string.water_tower_location,
+            LatLng(42.9012331, -90.4338112)),
 
         LandmarkDataObject(
-            "ferry_building",
-            R.string.ferry_building_hint,
-            R.string.ferry_building_location,
-            LatLng(37.795490, -122.394276)),
+            "cross_roads1",
+            R.string.woodward_park_hint,
+            R.string.woodward_park_location,
+            LatLng(42.902040, -90.433177)),
 
         LandmarkDataObject(
-            "pier_39",
-            R.string.pier_39_hint,
-            R.string.pier_39_location,
-            LatLng(37.808674, -122.409821)),
+            "memorial_park",
+            R.string.memorial_park_hint,
+            R.string.memorial_park_location,
+            LatLng(42.901620, -90.436064)),
 
         LandmarkDataObject(
-            "union_square",
-            R.string.union_square_hint,
-            R.string.union_square_location,
-            LatLng(37.788151, -122.407570))
+            "cross_roads2",
+            R.string.w_jackson_s_clifton_hint,
+            R.string.w_jackson_s_clifton_location,
+            LatLng(42.898208, -90.436430)),
+
+        LandmarkDataObject(
+            "bell_park",
+            R.string.bell_park_hint,
+            R.string.bell_park_location,
+            LatLng(42.897966, -90.29316)
+        )
     )
 
     val NUM_LANDMARKS = LANDMARK_DATA.size
